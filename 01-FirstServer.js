@@ -1,5 +1,7 @@
 //Require/import the HTTP module
-var http = require('http');
+var http 		= require('http');
+var inquirer 	= require('inquirer');
+var prompt 		= require('prompt');
 
 //Lets define a port we want to listen to
 var PORT1 = 7000;
